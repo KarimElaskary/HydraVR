@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary text-white font-bold;
+  }
+  li {
+    @apply font-primary font-semibold;
+  }
+  p {
+    @apply text-white text-[16px];
+  }
+  span {
+    @apply font-primary text-primary;
+  }
+
+  input {
+    @apply text-primary flex-1;
+  }
+
+  .btn {
+    @apply bg-gradient-to-r from-primary to-[#8176AF] px-[20px] py-[10px] rounded-[50px] text-[#343045] font-primary font-bold text-[15px];
+  }
+
+  .about-bg {
+    @apply bg-gradient-to-r from-[#3a3456] to-[#211e2e];
+  }
+
+  .nav-btn {
+    @apply px-[20px] py-[10px] rounded-[50px] text-white font-primary font-bold border-[2px] border-white text-[15px];
+  }
+  .form-row {
+    @apply flex justify-between items-center flex-wrap gap-4
+  }
+}
+
+body {
+  background-color: #302c42;
+}
+
+.box-shadow {
+  box-shadow: 0 0 6px 17px rgba(0, 0, 0, 0.25);
+}
+
+.hero-img {
+  border-radius: 100px 100px 100px 240px;
+  background: #a3a3a3;
+  box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.about-img {
+  border-radius: 100px 100px 240px 100px;
+  background: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form {
+  border-radius: 100px;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+input {
+  border-radius: 40px;
+  border: 2px solid #ffffff77;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+}
+textarea {
+  border-radius: 40px;
+  border: 2px solid #fff7;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  resize: none;
+  flex: 1;
+}

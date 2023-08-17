@@ -4,7 +4,7 @@ import pexelsmichelangelo from '../assets/pexelsmichelangelo.png'
 const Hero = () => {
   return (
     <div>
-        <div className='container mx-auto'>
+        <div className='container mx-auto py-[50px]'>
             <div className='flex justify-center lg:justify-between items-center flex-col lg:flex-row space-y-[50px] lg:space-y-0'>
                 <div className='flex-1 gap-[20px] space-y-[20px]'>
                 <h1 className='text-white font-semibold text-5xl'>
